@@ -1349,12 +1349,12 @@ public class JverifyPlugin implements FlutterPlugin, MethodCallHandler {
                 if(isSmsLogBtnTextBold !=null){
                     builder.isSmsLogBtnTextBold((Boolean) isSmsLogBtnTextBold);
                 }
-                if(smsLogBtnBackgroundPath !=null){
-                    int res_id_smsLogBtnBackgroundPath = getResourceByReflect((String) smsLogBtnBackgroundPath);
-                    if (res_id_smsLogBtnBackgroundPath > 0) {
-                        builder.setSmsLogBtnBackgroundPath((Integer) smsLogBtnBackgroundPath);
-                    }
-                }
+                // if(smsLogBtnBackgroundPath !=null){
+                //    int res_id_smsLogBtnBackgroundPath = getResourceByReflect((String) smsLogBtnBackgroundPath);
+                //    if (res_id_smsLogBtnBackgroundPath > 0) {
+                //        builder.setSmsLogBtnBackgroundPath((Integer) smsLogBtnBackgroundPath);
+                //    }
+                // }
                 if(smsFirstSeperLineOffsetX !=null){
                     builder.setSmsFirstSeperLineOffsetX((Integer) smsFirstSeperLineOffsetX);
                 }
